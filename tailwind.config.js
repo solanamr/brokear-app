@@ -5,7 +5,24 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  important: true,
   theme: {
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      mlg: "1130px",
+      xl: "1440px",
+      "2xl": "1660px",
+    },
+    colors: {
+      white: "#fff",
+      lightPink: "#fff5f5",
+      peach: "##FEF0E3",
+      red: "#da3535",
+      black: "#000",
+      
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
