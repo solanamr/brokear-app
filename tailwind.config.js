@@ -4,8 +4,27 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx}'
   ],
+  important: true,
   theme: {
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      mlg: "1130px",
+      xl: "1440px",
+      "2xl": "1660px",
+    },
+    colors: {
+      white: "#fff",
+      lightPink: "#fff5f5",
+      peach: "#FEF0E3",
+      red: "#da3535",
+      lightRed: "#e55959",
+      black: "#000",
+      
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
