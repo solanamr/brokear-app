@@ -4,6 +4,7 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx}'
   ],
   important: true,
   theme: {
@@ -20,6 +21,7 @@ module.exports = {
       lightPink: "#fff5f5",
       peach: "#FEF0E3",
       red: "#da3535",
+      lightRed: "#e55959",
       black: "#000",
       
     },
